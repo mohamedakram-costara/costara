@@ -246,3 +246,50 @@
  .home-page .professional-milestone-grid .milestone-card figcaption span{display:block;font-size:10px}
  .home-page .professional-milestone-grid .milestone-landscape img{aspect-ratio:16/9}
 }
+
+
+/* =========================================================
+   COSTARA STEP 2 — INTERNAL PAGE / INSIGHTS AUDIT FIXES
+   ========================================================= */
+body:not(.home-page) .brand-costara strong{letter-spacing:1.2px}
+.insight-section{margin:26px 0}
+.insight-section h2{font-size:25px;line-height:1.15;margin:0 0 9px;color:#fff}
+.insight-section p{margin:0;color:#d9e1eb;line-height:1.75;font-size:16px}
+.insight-callout{margin:24px 0;padding:18px 20px;border-left:4px solid var(--gold);background:rgba(216,167,58,.10);border-radius:10px}
+.insight-callout strong{color:var(--gold2);font-size:15px}.insight-callout p{margin:5px 0 0;color:#e5ebf3;font-size:14px}
+.related-box{margin-top:22px;padding:20px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.045)}
+.related-box h3{margin:0 0 10px;color:var(--gold2)}.related-box ul{margin:0;padding-left:20px}.related-box a{color:#fff}
+.advisory-disclaimer{max-width:900px;margin:auto;color:#5d6977;font-size:13px;line-height:1.65}
+@media(max-width:900px){
+ body:not(.home-page) .nav{padding:10px 0}
+ body:not(.home-page) .brand-costara .mark{width:42px;height:42px;font-size:20px}
+ body:not(.home-page) .brand-costara strong{font-size:18px}
+ body:not(.home-page) .brand-costara span{font-size:10px}
+ body:not(.home-page) .navlinks{top:64px;left:8px;right:8px}
+ .issue-hero{padding:34px 0}
+ .issue-layout{grid-template-columns:1fr;gap:22px}
+ .issue-layout>div:first-child{max-width:520px;margin:0 auto}
+ .article h1{font-size:38px;line-height:1.04}
+ .article{font-size:16px}
+ .download-panel{grid-template-columns:96px 1fr;gap:14px;padding:16px}
+ .download-panel img{width:96px}
+}
+@media(max-width:620px){
+ body:not(.home-page) .wrap{padding-left:16px;padding-right:16px}
+ .issue-hero{padding:24px 0 30px}
+ .breadcrumb{font-size:11px;margin-bottom:10px}
+ .issue-layout>div:first-child{max-width:340px}
+ .cover{border-radius:14px}
+ .article h1{font-size:31px;letter-spacing:-.5px;margin:8px 0 12px}
+ .article .lead{font-size:15px;line-height:1.55}
+ .insight-section{margin:21px 0}
+ .insight-section h2{font-size:20px}
+ .insight-section p{font-size:14px;line-height:1.65}
+ .download-panel{display:block;padding:16px}
+ .download-panel img{width:86px;margin:0 0 12px}
+ .download-panel h3{font-size:19px;margin-top:0}
+ .download-panel .btn{width:100%;margin-top:5px}
+ .related-box{padding:15px}.related-box h3{font-size:18px}
+ .page-hero{padding:38px 0}.page-hero h1{font-size:34px}
+ .content-card{padding:20px}.side-card{padding:19px}
+}
