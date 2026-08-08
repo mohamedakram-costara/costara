@@ -148,3 +148,64 @@
   .home-page .employer-card img{width:92px}
   .home-page .credibility-item strong{font-size:19px}
 }
+
+
+/* COSTARA — Professional Milestones */
+.home-page .milestones-section{background:linear-gradient(135deg,#061526,#0b2a49);padding:52px 0}
+.home-page .milestones-head{align-items:end}
+.home-page .milestones-head>p{color:#cbd5e1}
+.home-page .milestone-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+.home-page .milestone-card{grid-column:span 3;margin:0;position:relative;overflow:hidden;border-radius:18px;border:1px solid var(--line);background:#071729;min-height:330px}
+.home-page .milestone-card.milestone-featured{grid-column:span 6}
+.home-page .milestone-card img{width:100%;height:100%;min-height:330px;display:block;object-fit:cover;transition:transform .25s ease}
+.home-page .milestone-card:hover img{transform:scale(1.025)}
+.home-page .milestone-card figcaption{position:absolute;left:0;right:0;bottom:0;padding:54px 17px 16px;background:linear-gradient(transparent,rgba(2,9,18,.96));display:grid;gap:4px}
+.home-page .milestone-card figcaption strong{color:#fff;font-size:16px}
+.home-page .milestone-card figcaption span{color:#d3dbe6;font-size:12px;line-height:1.45}
+.home-page .milestone-quote{margin:24px auto 0;max-width:760px;text-align:center;color:var(--gold2);font-family:Georgia,serif;font-size:22px;line-height:1.4;border:0;padding:0}
+@media(max-width:900px){
+ .home-page .milestones-section{padding:42px 0}
+ .home-page .milestone-grid{grid-template-columns:1fr 1fr}
+ .home-page .milestone-card,.home-page .milestone-card.milestone-featured{grid-column:auto;min-height:260px}
+ .home-page .milestone-card img{min-height:260px}
+}
+@media(max-width:620px){
+ .home-page .milestone-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+ .home-page .milestone-card,.home-page .milestone-card.milestone-featured{min-height:210px;border-radius:14px}
+ .home-page .milestone-card img{min-height:210px}
+ .home-page .milestone-card figcaption{padding:42px 11px 11px}
+ .home-page .milestone-card figcaption strong{font-size:13px}
+ .home-page .milestone-card figcaption span{display:none}
+ .home-page .milestone-quote{font-size:18px;margin-top:20px}
+}
+
+
+/* COSTARA — Qualifications & Recognition */
+.home-page .qualifications-section{background:#f5f7fb}
+.home-page .qualification-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.home-page .qualification-card{background:#fff;border:1px solid #dfe6ef;border-radius:20px;overflow:hidden;display:grid;grid-template-columns:180px 1fr;min-height:235px;box-shadow:0 10px 30px rgba(15,31,51,.06)}
+.home-page .qualification-card.featured-qualification{grid-column:1/-1;grid-template-columns:minmax(300px,.78fr) 1.22fr;border-color:#d6b25e}
+.home-page .qualification-image{background:#eef2f6;overflow:hidden;min-height:235px}
+.home-page .qualification-image img{width:100%;height:100%;object-fit:cover;display:block}
+.home-page .featured-qualification .qualification-image img{object-position:center 30%}
+.home-page .qualification-copy{padding:22px;align-self:center}
+.home-page .qualification-kicker{display:block;color:#9c711a;text-transform:uppercase;letter-spacing:.7px;font-weight:900;font-size:11px;margin-bottom:7px}
+.home-page .qualification-copy h3{font-size:21px;line-height:1.17;margin:0 0 10px;color:var(--navy)}
+.home-page .qualification-copy p{margin:0;color:#5d6977;font-size:14px;line-height:1.6}
+.home-page .qualification-badge{display:inline-block;margin-top:13px;border:1px solid #d8b45e;color:#765215;background:#fff8e7;border-radius:999px;padding:6px 10px;font-weight:800;font-size:11px}
+.home-page .recognition-card{border-color:#d8b45e}
+.home-page .certificate-privacy-note{margin:15px 0 0;color:#778390;font-size:11px;text-align:center}
+@media(max-width:900px){
+ .home-page .qualification-grid{grid-template-columns:1fr}
+ .home-page .qualification-card,.home-page .qualification-card.featured-qualification{grid-column:auto;grid-template-columns:150px 1fr;min-height:210px}
+ .home-page .qualification-image{min-height:210px}
+}
+@media(max-width:620px){
+ .home-page .qualification-card,.home-page .qualification-card.featured-qualification{grid-template-columns:112px 1fr;min-height:180px;border-radius:15px}
+ .home-page .qualification-image{min-height:180px}
+ .home-page .qualification-copy{padding:14px}
+ .home-page .qualification-copy h3{font-size:15px}
+ .home-page .qualification-copy p{font-size:11px;line-height:1.45}
+ .home-page .qualification-kicker{font-size:9px}
+ .home-page .qualification-badge{font-size:9px;padding:5px 8px}
+}
