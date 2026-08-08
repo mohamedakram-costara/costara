@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://costara.me/sitemap.xml
+Sitemap: https://mohamedakram-costara.github.io/costara/sitemap.xml
