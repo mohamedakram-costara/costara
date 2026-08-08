@@ -209,3 +209,40 @@
  .home-page .qualification-kicker{font-size:9px}
  .home-page .qualification-badge{font-size:9px;padding:5px 8px}
 }
+
+
+/* PROFESSIONAL MILESTONE CROP FIX — no screenshot UI / no black bars */
+.home-page .professional-milestone-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.home-page .professional-milestone-grid .milestone-card{
+  grid-column:auto;min-height:0;background:#071729;border:1px solid var(--line);
+  border-radius:18px;overflow:hidden;position:relative
+}
+.home-page .professional-milestone-grid .milestone-card img{
+  width:100%;display:block;object-fit:cover;min-height:0;height:auto
+}
+.home-page .professional-milestone-grid .milestone-portrait img{
+  aspect-ratio:3/4;object-position:center center
+}
+.home-page .professional-milestone-grid .milestone-landscape{
+  grid-column:1/-1
+}
+.home-page .professional-milestone-grid .milestone-landscape img{
+  aspect-ratio:16/8.2;object-fit:cover;object-position:center center
+}
+.home-page .professional-milestone-grid .milestone-card figcaption{
+  position:static;background:#071729;padding:15px 16px 17px
+}
+.home-page .professional-milestone-grid .milestone-card figcaption strong{
+  display:block;color:#fff;font-size:16px;margin-bottom:5px
+}
+.home-page .professional-milestone-grid .milestone-card figcaption span{
+  display:block;color:#cbd5e1;font-size:12px;line-height:1.5
+}
+@media(max-width:620px){
+ .home-page .professional-milestone-grid{gap:10px}
+ .home-page .professional-milestone-grid .milestone-card{border-radius:14px}
+ .home-page .professional-milestone-grid .milestone-card figcaption{padding:11px 12px 13px}
+ .home-page .professional-milestone-grid .milestone-card figcaption strong{font-size:13px}
+ .home-page .professional-milestone-grid .milestone-card figcaption span{display:block;font-size:10px}
+ .home-page .professional-milestone-grid .milestone-landscape img{aspect-ratio:16/9}
+}
