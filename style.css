@@ -747,3 +747,427 @@ body:not(.home-page) .brand-costara strong{letter-spacing:1.2px}
     padding:22px 18px;
   }
 }
+
+/* =========================================================
+   COSTARA FORMULA — FINAL MATCHED DESIGN
+   Matches costara-formula.html
+   ========================================================= */
+
+.formula-page .formula-hero{
+  min-height:100vh;
+  padding:50px 5% 55px;
+  background:
+    radial-gradient(circle at 12% 20%,rgba(216,167,58,.18),transparent 28%),
+    radial-gradient(circle at 88% 18%,rgba(12,49,86,.45),transparent 32%),
+    linear-gradient(135deg,#051321 0%,#081d34 55%,#061321 100%);
+  color:#fff;
+  position:relative;
+  overflow:hidden;
+}
+
+.formula-page .formula-brand{
+  max-width:1450px;
+  margin:0 auto 42px;
+  display:flex;
+  align-items:center;
+  gap:18px;
+}
+
+.formula-page .formula-c{
+  width:82px;
+  height:82px;
+  border:2px solid #d8a73a;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#f0c96a;
+  font:700 52px Georgia,serif;
+  box-shadow:0 0 35px rgba(216,167,58,.18);
+}
+
+.formula-page .formula-brand strong{
+  display:block;
+  color:#fff;
+  font-size:30px;
+  letter-spacing:3px;
+}
+
+.formula-page .formula-brand span{
+  display:block;
+  color:#f0c96a;
+  margin-top:4px;
+  font-size:13px;
+  font-weight:800;
+  letter-spacing:2px;
+}
+
+.formula-page .formula-hero-content{
+  max-width:1180px;
+  margin:0 auto;
+  text-align:center;
+}
+
+.formula-page .formula-kicker{
+  color:#f0c96a;
+  font-size:13px;
+  font-weight:900;
+  letter-spacing:4px;
+  text-transform:uppercase;
+  margin-bottom:18px;
+}
+
+.formula-page .formula-hero-content h1{
+  margin:0;
+  color:#fff;
+  font-size:clamp(44px,6vw,78px);
+  line-height:.98;
+  letter-spacing:-2px;
+}
+
+.formula-page .formula-hero-content h1 span{
+  display:block;
+  color:#f0c96a;
+  margin-top:12px;
+}
+
+.formula-page .formula-hero-content h2{
+  color:#f0c96a;
+  margin:22px 0 16px;
+  font-size:clamp(20px,2.4vw,29px);
+}
+
+.formula-page .formula-intro{
+  max-width:900px;
+  margin:0 auto;
+  color:#dce6ef;
+  font-size:18px;
+  line-height:1.7;
+}
+
+/* CONTROL JOURNEY */
+
+.formula-page .formula-flow{
+  max-width:1450px;
+  margin:48px auto 0;
+  padding:28px 20px;
+  border:1px solid rgba(216,167,58,.75);
+  border-radius:22px;
+  background:rgba(5,19,34,.78);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+}
+
+.formula-page .formula-stage{
+  min-width:118px;
+  text-align:center;
+}
+
+.formula-page .stage-icon{
+  width:68px;
+  height:68px;
+  margin:0 auto 11px;
+  border:2px solid #d8a73a;
+  border-radius:50%;
+  background:#0a223c;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#fff;
+  font-size:21px;
+  font-weight:900;
+}
+
+.formula-page .formula-stage strong{
+  display:block;
+  color:#fff;
+  font-size:13px;
+}
+
+.formula-page .formula-stage span{
+  display:block;
+  margin-top:4px;
+  color:#f0c96a;
+  font-size:12px;
+}
+
+.formula-page .formula-arrow{
+  color:#d8a73a;
+  font-size:25px;
+  font-weight:900;
+}
+
+/* SIGNATURE EQUATION */
+
+.formula-page .formula-signature{
+  max-width:1180px;
+  margin:32px auto 0;
+  padding:30px;
+  background:#fff;
+  border:2px solid #d8a73a;
+  border-radius:20px;
+  text-align:center;
+  box-shadow:0 22px 55px rgba(0,0,0,.22);
+}
+
+.formula-page .signature-label{
+  color:#9d7118;
+  font-size:12px;
+  font-weight:900;
+  letter-spacing:2px;
+}
+
+.formula-page .signature-equation{
+  margin:16px 0;
+  color:#081321;
+  font-size:clamp(26px,4vw,46px);
+  font-weight:900;
+}
+
+.formula-page .formula-signature p{
+  margin:0;
+  color:#52606e !important;
+  line-height:1.7;
+}
+
+/* COSTARA PRINCIPLE */
+
+.formula-page .formula-principle{
+  max-width:1180px;
+  margin:28px auto 0;
+  padding:28px;
+  border:1px solid #d8a73a;
+  border-radius:18px;
+  background:linear-gradient(135deg,#07182b,#0b2948);
+  text-align:center;
+}
+
+.formula-page .formula-principle strong{
+  color:#f0c96a !important;
+  font-size:21px;
+}
+
+.formula-page .formula-principle p{
+  color:#fff !important;
+  margin:10px 0;
+}
+
+.formula-page .formula-principle h3{
+  color:#f0c96a !important;
+  margin:8px 0 0;
+  font-size:clamp(19px,2.3vw,29px);
+}
+
+/* CONTROL PERIODS */
+
+.formula-page .formula-periods{
+  max-width:1350px;
+  margin:28px auto 0;
+  display:grid;
+  grid-template-columns:repeat(6,1fr);
+  gap:10px;
+}
+
+.formula-page .formula-periods div{
+  padding:16px 10px;
+  text-align:center;
+  border:1px solid rgba(216,167,58,.6);
+  border-radius:14px;
+  background:rgba(255,255,255,.035);
+}
+
+.formula-page .formula-periods strong{
+  display:block;
+  color:#f0c96a !important;
+}
+
+.formula-page .formula-periods span{
+  display:block;
+  color:#fff !important;
+  margin-top:4px;
+  font-size:12px;
+}
+
+.formula-page .formula-tagline{
+  text-align:center;
+  margin-top:26px;
+  color:#fff;
+  font-size:12px;
+  letter-spacing:5px;
+}
+
+/* FORMULA LIBRARY */
+
+.formula-page .formula-knowledge{
+  background:#f4f7fa;
+  color:#081321;
+  padding:78px 5%;
+}
+
+.formula-page .formula-section-heading{
+  max-width:900px;
+  margin:0 auto 42px;
+  text-align:center;
+}
+
+.formula-page .formula-section-heading > span{
+  color:#a87918;
+  font-weight:900;
+  letter-spacing:2px;
+  font-size:12px;
+}
+
+.formula-page .formula-section-heading h2{
+  color:#081321 !important;
+  font-size:clamp(34px,4vw,50px);
+  margin:10px 0;
+}
+
+.formula-page .formula-section-heading p{
+  color:#596674 !important;
+  line-height:1.7;
+}
+
+.formula-page .formula-card{
+  max-width:1100px;
+  margin:0 auto 22px;
+  padding:28px;
+  display:grid;
+  grid-template-columns:80px 1fr;
+  gap:24px;
+  background:#fff;
+  border:1px solid #dce3eb;
+  border-radius:18px;
+  box-shadow:0 12px 30px rgba(8,19,33,.06);
+}
+
+.formula-page .formula-number{
+  width:62px;
+  height:62px;
+  border-radius:50%;
+  background:#081b30;
+  color:#f0c96a;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:900;
+}
+
+.formula-page .formula-category{
+  color:#a87918;
+  font-size:11px;
+  font-weight:900;
+  letter-spacing:1.5px;
+}
+
+.formula-page .formula-card h3{
+  color:#081321 !important;
+  margin:6px 0 14px;
+  font-size:26px;
+}
+
+.formula-page .equation-box{
+  padding:18px 20px;
+  margin-bottom:14px;
+  background:#081b30;
+  border-left:5px solid #d8a73a;
+  border-radius:10px;
+  color:#fff;
+  font-size:clamp(18px,2vw,25px);
+  font-weight:900;
+}
+
+.formula-page .formula-card p{
+  color:#53606d !important;
+  line-height:1.7;
+  margin:0;
+}
+
+.formula-page .formula-final{
+  max-width:1100px;
+  margin:48px auto 0;
+  padding:36px;
+  text-align:center;
+  border:1px solid #d8a73a;
+  border-radius:20px;
+  background:linear-gradient(135deg,#06172a,#0b2948);
+}
+
+.formula-page .formula-final span{
+  color:#f0c96a;
+  font-weight:900;
+  letter-spacing:2px;
+}
+
+.formula-page .formula-final h2{
+  color:#fff !important;
+  font-size:clamp(30px,4vw,45px);
+  margin:10px 0;
+}
+
+.formula-page .formula-final p{
+  color:#e4ebf2 !important;
+  line-height:1.7;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:1100px){
+  .formula-page .formula-flow{
+    flex-wrap:wrap;
+  }
+
+  .formula-page .formula-arrow{
+    display:none;
+  }
+
+  .formula-page .formula-stage{
+    flex:1 1 21%;
+  }
+
+  .formula-page .formula-periods{
+    grid-template-columns:repeat(3,1fr);
+  }
+}
+
+@media(max-width:650px){
+  .formula-page .formula-hero{
+    padding:35px 18px 45px;
+  }
+
+  .formula-page .formula-brand{
+    margin-bottom:30px;
+  }
+
+  .formula-page .formula-c{
+    width:62px;
+    height:62px;
+    font-size:37px;
+  }
+
+  .formula-page .formula-brand strong{
+    font-size:22px;
+  }
+
+  .formula-page .formula-stage{
+    flex:1 1 45%;
+  }
+
+  .formula-page .formula-periods{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .formula-page .formula-card{
+    grid-template-columns:1fr;
+  }
+
+  .formula-page .formula-knowledge{
+    padding:52px 18px;
+  }
+
+  .formula-page .formula-tagline{
+    letter-spacing:2px;
+  }
+}
