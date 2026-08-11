@@ -606,3 +606,144 @@ body:not(.home-page) .brand-costara strong{letter-spacing:1.2px}
 }
 
 }
+
+/* =========================================================
+   COSTARA FORMULA PAGE
+   ========================================================= */
+
+.formula-page{
+  margin:0;
+  background:#071525;
+  color:#ffffff;
+  font-family:Inter,Arial,sans-serif;
+}
+
+/* =========================================================
+   COSTARA FORMULA — EXECUTIVE COVER
+   ========================================================= */
+
+.formula-page .formula-hero{
+  position:relative;
+  min-height:88vh;
+  display:flex;
+  align-items:center;
+  overflow:hidden;
+  padding:90px 0 80px;
+  background:
+    radial-gradient(circle at 82% 20%,rgba(240,201,106,.15),transparent 32%),
+    linear-gradient(135deg,#061321 0%,#0a223c 55%,#071525 100%);
+}
+
+.formula-page .formula-hero::before{
+  content:"";
+  position:absolute;
+  width:520px;
+  height:520px;
+  border:1px solid rgba(240,201,106,.18);
+  border-radius:50%;
+  right:-130px;
+  top:-170px;
+}
+
+.formula-page .formula-hero-inner{
+  width:min(1180px,calc(100% - 48px));
+  margin:auto;
+  position:relative;
+  z-index:2;
+}
+
+.formula-page .formula-kicker{
+  display:inline-block;
+  color:#f0c96a;
+  font-size:13px;
+  font-weight:800;
+  letter-spacing:3px;
+  text-transform:uppercase;
+  margin-bottom:22px;
+}
+
+.formula-page .formula-hero h1{
+  margin:0;
+  max-width:900px;
+  font-size:clamp(54px,7vw,94px);
+  line-height:.94;
+  letter-spacing:-3px;
+  color:#ffffff;
+}
+
+.formula-page .formula-hero h1 span{
+  color:#f0c96a;
+}
+
+.formula-page .formula-hero-lead{
+  max-width:760px;
+  margin:28px 0 0;
+  font-size:20px;
+  line-height:1.7;
+  color:#b8c8d8;
+}
+
+.formula-page .formula-master{
+  margin-top:46px;
+  padding:28px 32px;
+  max-width:1050px;
+  border:1px solid rgba(240,201,106,.32);
+  border-radius:18px;
+  background:rgba(255,255,255,.045);
+  box-shadow:0 22px 70px rgba(0,0,0,.25);
+}
+
+.formula-page .formula-master-label{
+  display:block;
+  margin-bottom:14px;
+  color:#f0c96a;
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:2.2px;
+  text-transform:uppercase;
+}
+
+.formula-page .formula-master-equation{
+  font-size:clamp(20px,2.5vw,32px);
+  font-weight:800;
+  line-height:1.5;
+  letter-spacing:.5px;
+  color:#ffffff;
+}
+
+.formula-page .formula-master-equation strong{
+  color:#f0c96a;
+}
+
+.formula-page .formula-signature{
+  margin-top:35px;
+  padding-top:22px;
+  border-top:1px solid rgba(255,255,255,.12);
+  font-size:13px;
+  letter-spacing:.7px;
+  color:#8296aa;
+}
+
+@media(max-width:700px){
+  .formula-page .formula-hero{
+    min-height:auto;
+    padding:65px 0;
+  }
+
+  .formula-page .formula-hero-inner{
+    width:min(100% - 30px,1180px);
+  }
+
+  .formula-page .formula-hero h1{
+    font-size:48px;
+    letter-spacing:-2px;
+  }
+
+  .formula-page .formula-hero-lead{
+    font-size:17px;
+  }
+
+  .formula-page .formula-master{
+    padding:22px 18px;
+  }
+}
