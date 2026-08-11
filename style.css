@@ -324,3 +324,99 @@ body:not(.home-page) .brand-costara strong{letter-spacing:1.2px}
 }
 .mini-cta h3{color:#f2b93b!important}
 .mini-cta p{color:#ffffff!important}
+
+
+/* ===== COSTARA GLOBAL DARK-SECTION READABILITY FIX ===== */
+
+/* Dark sections: make normal text readable */
+.page-hero,
+.side-card,
+.community-band,
+.mini-cta,
+.footer,
+.topbar,
+.strategic-feature,
+.credential-section,
+.community-section {
+  color:#ffffff;
+}
+
+/* Paragraphs and list text inside dark sections */
+.page-hero p,
+.side-card p,
+.side-card li,
+.side-card span,
+.community-band p,
+.community-band span,
+.mini-cta p,
+.footer p,
+.strategic-feature p,
+.credential-section p,
+.community-section p {
+  color:#f7f9fc !important;
+}
+
+/* Headings on dark sections */
+.page-hero h1,
+.page-hero h2,
+.page-hero h3,
+.side-card h2,
+.side-card h3,
+.community-band h2,
+.community-band h3,
+.strategic-feature h2,
+.strategic-feature h3,
+.credential-section h2,
+.credential-section h3,
+.community-section h2,
+.community-section h3 {
+  color:#ffffff !important;
+}
+
+/* Gold emphasis where suitable */
+.mini-cta h3,
+.side-card > h3:first-child,
+.community-band .eyebrow,
+.page-hero .eyebrow,
+.strategic-feature .tag {
+  color:#f2b93b !important;
+}
+
+/* Links inside dark sections */
+.side-card a:not(.btn),
+.community-band a:not(.btn),
+.footer a,
+.strategic-feature a:not(.btn),
+.community-section a:not(.btn) {
+  color:#f2b93b !important;
+}
+
+/* Keep white content cards dark and readable */
+.content-card,
+.topic-link,
+.rule,
+.qualification-card,
+.linkedin-share-box {
+  color:var(--ink) !important;
+}
+
+.content-card p,
+.content-card h2,
+.content-card h3,
+.topic-link span,
+.rule,
+.qualification-card p,
+.qualification-card h3,
+.linkedin-share-box span,
+.linkedin-share-box strong {
+  color:var(--ink) !important;
+}
+
+/* Preserve button contrast */
+.btn {
+  color:#081321 !important;
+}
+
+.btn.dark {
+  color:#ffffff !important;
+}
