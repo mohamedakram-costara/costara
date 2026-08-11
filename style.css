@@ -419,4 +419,190 @@ body:not(.home-page) .brand-costara strong{letter-spacing:1.2px}
 
 .btn.dark {
   color:#ffffff !important;
+/* =========================================================
+   COSTARA CONTROL EQUATION
+   Purchase → Issue → Consumption → Output → Revenue
+   ========================================================= */
+
+.costara-equation-section{
+  background:linear-gradient(135deg,#06172a 0%,#0b2948 100%);
+  padding:70px 0;
+  color:#ffffff;
+}
+
+.costara-equation-section .section-head{
+  text-align:center;
+  max-width:900px;
+  margin:0 auto 36px;
+}
+
+.costara-equation-section .eyebrow{
+  color:#f0c96a;
+  font-weight:800;
+  letter-spacing:1.5px;
+  margin-bottom:10px;
+}
+
+.costara-equation-section .section-head h2{
+  color:#ffffff !important;
+  font-size:clamp(32px,4vw,50px);
+  margin:0 0 14px;
+}
+
+.costara-equation-section .section-head p{
+  color:#dce6f1 !important;
+  font-size:17px;
+  line-height:1.7;
+}
+
+/* Main COSTARA formula */
+
+.costara-equation{
+  background:#ffffff;
+  color:#081321;
+  border-radius:24px;
+  padding:32px;
+  margin:30px auto;
+  box-shadow:0 18px 45px rgba(0,0,0,.20);
+  border:2px solid #d8a73a;
+}
+
+.costara-equation-title{
+  text-align:center;
+  color:#0a223c;
+  font-weight:900;
+  font-size:20px;
+  margin-bottom:24px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+}
+
+/* Equation stages */
+
+.costara-equation-flow{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:12px;
+  align-items:stretch;
+}
+
+.costara-equation-step{
+  background:#f5f7fa;
+  border:1px solid #dce3eb;
+  border-radius:16px;
+  padding:20px 14px;
+  text-align:center;
+  position:relative;
+}
+
+.costara-equation-step strong{
+  display:block;
+  color:#0a223c !important;
+  font-size:17px;
+  margin-bottom:8px;
+}
+
+.costara-equation-step span{
+  display:block;
+  color:#5b6775 !important;
+  font-size:13px;
+  line-height:1.5;
+}
+
+.costara-equation-step:not(:last-child)::after{
+  content:"→";
+  position:absolute;
+  right:-17px;
+  top:50%;
+  transform:translateY(-50%);
+  color:#d8a73a;
+  font-size:24px;
+  font-weight:900;
+  z-index:2;
+}
+
+/* Core equation */
+
+.costara-formula{
+  margin:28px 0 0;
+  background:#081b30;
+  border-radius:18px;
+  padding:24px;
+  text-align:center;
+  border:1px solid #d8a73a;
+}
+
+.costara-formula strong{
+  display:block;
+  color:#f0c96a !important;
+  font-size:clamp(20px,3vw,30px);
+  line-height:1.5;
+}
+
+.costara-formula span{
+  display:block;
+  color:#ffffff !important;
+  margin-top:10px;
+  font-size:14px;
+}
+
+/* COSTARA principle */
+
+.costara-equation-principle{
+  margin-top:28px;
+  padding:24px 28px;
+  border-left:5px solid #f0c96a;
+  background:rgba(255,255,255,.08);
+  border-radius:0 16px 16px 0;
+}
+
+.costara-equation-principle strong{
+  display:block;
+  color:#f0c96a !important;
+  font-size:19px;
+  margin-bottom:8px;
+}
+
+.costara-equation-principle p{
+  color:#ffffff !important;
+  margin:0;
+  line-height:1.7;
+}
+
+/* Mobile */
+
+@media(max-width:900px){
+  .costara-equation-flow{
+    grid-template-columns:1fr;
+  }
+
+  .costara-equation-step:not(:last-child)::after{
+    content:"↓";
+    right:auto;
+    left:50%;
+    top:auto;
+    bottom:-23px;
+    transform:translateX(-50%);
+  }
+
+  .costara-equation-step{
+    margin-bottom:12px;
+  }
+}
+
+@media(max-width:520px){
+  .costara-equation-section{
+    padding:48px 0;
+  }
+
+  .costara-equation{
+    padding:20px 15px;
+    border-radius:18px;
+  }
+
+  .costara-formula{
+    padding:20px 12px;
+  }
+}
+
 }
