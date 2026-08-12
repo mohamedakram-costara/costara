@@ -1171,3 +1171,27 @@ body:not(.home-page) .brand-costara strong{letter-spacing:1.2px}
     letter-spacing:2px;
   }
 }
+/* COSTARA FORMULA COVER PAGE */
+
+.formula-page .formula-cover{
+  width:100%;
+  background:#07182b;
+  text-align:center;
+  overflow:hidden;
+}
+
+.formula-page .formula-cover img{
+  display:block;
+  width:100%;
+  max-width:1600px;
+  height:auto;
+  margin:0 auto;
+}
+
+@media(max-width:600px){
+  .formula-page .formula-cover img{
+    width:100%;
+    height:auto;
+  }
+}  
+}
